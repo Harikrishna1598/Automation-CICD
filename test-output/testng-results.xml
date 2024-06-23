@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-20T08:03:03 GMT-07:00" name="Suite" finished-at="2024-06-20T08:05:29 GMT-07:00" duration-ms="146668">
+    <groups>
+    </groups>
+    <test started-at="2024-06-20T08:03:03 GMT-07:00" name="Test" finished-at="2024-06-20T08:05:29 GMT-07:00" duration-ms="146668">
+      <class name="seleniumframeworkdesign.TestCase.Standalonetest">
+        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-20T08:03:03 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-20T08:03:39 GMT-07:00" duration-ms="35477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Hari@251998, emailid=harry251998@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-20T08:03:39 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-20T08:04:02 GMT-07:00" duration-ms="23435" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Lingesh@22012002, emailid=lingesh22012002@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-20T08:04:02 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-20T08:04:44 GMT-07:00" duration-ms="41794" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 Anywhwere st, company name=Olivia wilson, Date=1, zipcode=98039, Month=5, password=Hari@151998, last name=krishna, company city=Any city, Year=1998, first name=Hari, mobile number=9500204992, State=Washington, name=Hari krishna}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-20T08:04:44 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-20T08:05:29 GMT-07:00" duration-ms="45349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria street, company name=Infosys, Date=2, zipcode=600018, Month=7, password=Divyashree@151998, last name=Shree, company city=Electronic city, Year=2000, first name=Divya, mobile number=8667732253, State=Tamilnadu, name=Divya shree}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitForm -->
+      </class> <!-- seleniumframeworkdesign.TestCase.Standalonetest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

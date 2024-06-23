@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Hari krishna",
+		"emailid": "hari01051997@gmail.com",
+		"Title": "Mr",
+		"password": "Hari@151998",
+		"Date": "1",
+		"Month": "5",
+		"Year": "1998",
+		"first name": "Hari",
+		"last name": "krishna",
+		"company name": "Olivia wilson",
+		"company street": "123 Anywhwere st",
+		"company city": "Any city",
+		"country": "United States",
+		"State": "Washington",
+		"city": "Seattle",
+		"zipcode": "98039",
+		"mobile number": "9500204992"
+	},
+	{
+		"name": "Divya shree",
+		"emailid": "divyashree151998@gmail.com",
+		"Title": "Mrs",
+		"password": "Divyashree@151998",
+		"Date": "2",
+		"Month": "7",
+		"Year": "2000",
+		"first name": "Divya",
+		"last name": "Shree",
+		"company name": "Infosys",
+		"company street": "Victoria street",
+		"company city": "Electronic city",
+		"country": "India",
+		"State": "Tamilnadu",
+		"city": "Chennai",
+		"zipcode": "600018",
+		"mobile number": "8667732253"
+	}
+]
