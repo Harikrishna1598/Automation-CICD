@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-20T08:03:03 GMT-07:00" name="Suite" finished-at="2024-06-20T08:05:29 GMT-07:00" duration-ms="146668">
+  <suite started-at="2024-06-24T06:35:17 GMT-07:00" name="Suite" finished-at="2024-06-24T06:37:08 GMT-07:00" duration-ms="110818">
     <groups>
     </groups>
-    <test started-at="2024-06-20T08:03:03 GMT-07:00" name="Test" finished-at="2024-06-20T08:05:29 GMT-07:00" duration-ms="146668">
+    <test started-at="2024-06-24T06:35:17 GMT-07:00" name="Test" finished-at="2024-06-24T06:37:08 GMT-07:00" duration-ms="110818">
       <class name="seleniumframeworkdesign.TestCase.Standalonetest">
-        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-20T08:03:03 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-20T08:03:39 GMT-07:00" duration-ms="35477" status="PASS">
+        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-24T06:35:18 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-24T06:35:39 GMT-07:00" duration-ms="21334" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-20T08:03:39 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-20T08:04:02 GMT-07:00" duration-ms="23435" status="PASS">
+        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-24T06:35:39 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-24T06:36:00 GMT-07:00" duration-ms="20562" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,7 +29,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-20T08:04:02 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-20T08:04:44 GMT-07:00" duration-ms="41794" status="PASS">
+        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-24T06:36:00 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-24T06:36:35 GMT-07:00" duration-ms="35099" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -40,7 +40,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitForm -->
-        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-20T08:04:44 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-20T08:05:29 GMT-07:00" duration-ms="45349" status="PASS">
+        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-24T06:36:35 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-24T06:37:08 GMT-07:00" duration-ms="33401" status="PASS">
           <params>
             <param index="0">
               <value>
