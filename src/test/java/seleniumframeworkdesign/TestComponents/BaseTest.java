@@ -35,7 +35,9 @@ public class BaseTest {
 		FileInputStream fileInputStream = new FileInputStream(System.getProperty("user.dir")
 				+ "/src/main/java/seleniumframeworkdesign/Resources/GlobalData.properties");
 		prop.load(fileInputStream);
-		String browser = prop.getProperty("browser");
+		String browser = System.getProperty("Browser") != null ? System.getProperty("Browser")
+				: prop.getProperty("Browser");
+		// prop.getProperty("Browser");
 
 		if (browser.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
