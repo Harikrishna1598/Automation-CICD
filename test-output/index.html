@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -104,12 +104,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)">submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)">submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="logIn({password=Hari@251998, emailid=harry251998@gmail.com})">logIn({password=Hari@251998, emailid=harry251998@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -128,7 +123,12 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="logIn({password=Hari@251998, emailid=harry251998@gmail.com})">logIn({password=Hari@251998, emailid=harry251998@gmail.com})</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)">submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)">submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -151,17 +151,19 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)">
-                  </a> <!-- submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...) -->
-                  <span class="method-name">submitForm</span>
-                  <span class="parameters">({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 Anywhwere st, company name=Olivia wilson, Date=1, zipcode=98039, Month=5, password=Hari@151998, last name=krishna, company city=Any city, Year=1998, first name=Hari, mobile number=9500204992, State=Washington, name=Hari krishna})</span>
-                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (208, 603) is out of bounds of viewport dimensions (1280, 587)
+                  <a name="logIn({password=Hari@251998, emailid=harry251998@gmail.com})">
+                  </a> <!-- logIn({password=Hari@251998, emailid=harry251998@gmail.com}) -->
+                  <span class="method-name">logIn</span>
+                  <span class="parameters">({password=Hari@251998, emailid=harry251998@gmail.com})</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button type=&quot;submit&quot; data-qa=&quot;login-button&quot; class=&quot;btn btn-default&quot;&gt;...&lt;/button&gt; is not clickable at point (178, 433). Other element would receive the click: &lt;iframe id=&quot;aswift_1&quot; name=&quot;aswift_1&quot; browsingtopics=&quot;true&quot; style=&quot;width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;&quot; sandbox=&quot;allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation&quot; width=&quot;&quot; height=&quot;&quot; frameborder=&quot;0&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; vspace=&quot;0&quot; hspace=&quot;0&quot; allowtransparency=&quot;true&quot; scrolling=&quot;no&quot; allow=&quot;attribution-reporting&quot; src=&quot;https://googleads.g.doubleclick.net/pagead/html/r20240618/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;amp;adk=1812271808&amp;amp;client=ca-pub-1677597403311019&amp;amp;fa=8&amp;amp;ifi=2&amp;amp;uci=a!2&quot; data-google-container-id=&quot;a!2&quot; tabindex=&quot;0&quot; title=&quot;Advertisement&quot; aria-label=&quot;Advertisement&quot; data-google-query-id=&quot;COKzld2o-YYDFeZGnQkdiQgHmw&quot; data-load-complete=&quot;true&quot;&gt;&lt;/iframe&gt;
+  (Session info: MicrosoftEdge=126.0.2592.68)
 Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e457ce69-fa64-48f5-828f-be953763bc04, actions {actions=[org.openqa.selenium.interactions.Sequence@32177fa5]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:39060, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 15408, moz:profile: C:\Users\LINGU\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:39060/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e457ce69-fa64-48f5-828f-be953763bc04
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2cbbe3dd1de2ce9e97446615ffa48629, clickElement {id=f.CAB17C79E82D15DD8C64570B7615A62E.d.0F7C721AC0CDB86B2E7CF67DE291F3A0.e.45}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55083}, msedge: {msedgedriverVersion: 126.0.2592.68 (30e1b6cc72a8..., userDataDir: C:\Users\LINGU\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55083/devtoo..., se:cdpVersion: 126.0.2592.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (2cbbe3dd1de2ce9e97446615ffa48629)] -&gt; xpath: //form[@action=&apos;/login&apos;]/button]
+Session ID: 2cbbe3dd1de2ce9e97446615ffa48629
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -169,41 +171,14 @@ Session ID: e457ce69-fa64-48f5-828f-be953763bc04
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
-	at seleniumframeworkdesign.PageObjects.AccountInformationPage.selectDateOfBirth(AccountInformationPage.java:67)
-	at seleniumframeworkdesign.TestCase.Standalonetest.submitForm(Standalonetest.java:56)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
+	at seleniumframeworkdesign.PageObjects.HomePage.Login(HomePage.java:49)
+	at seleniumframeworkdesign.TestCase.Standalonetest.logIn(Standalonetest.java:122)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)">
-                  </a> <!-- submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...) -->
-                  <span class="method-name">submitForm</span>
-                  <span class="parameters">({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria street, company name=Infosys, Date=2, zipcode=600018, Month=7, password=Divyashree@151998, last name=Shree, company city=Electronic city, Year=2000, first name=Divya, mobile number=8667732253, State=Tamilnadu, name=Divya shree})</span>
-                  <div class="stack-trace">org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (208, 603) is out of bounds of viewport dimensions (1280, 587)
-Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [eff54955-b0fe-438d-af33-c84308f6e527, actions {actions=[org.openqa.selenium.interactions.Sequence@5807efad]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 127.0, moz:accessibilityChecks: false, moz:buildID: 20240606181944, moz:debuggerAddress: 127.0.0.1:3124, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 16208, moz:profile: C:\Users\LINGU\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:3124/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: eff54955-b0fe-438d-af33-c84308f6e527
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:604)
-	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:603)
-	at seleniumframeworkdesign.PageObjects.AccountInformationPage.selectDateOfBirth(AccountInformationPage.java:67)
-	at seleniumframeworkdesign.TestCase.Standalonetest.submitForm(Standalonetest.java:56)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 32 stack frames
+... Removed 36 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -225,10 +200,18 @@ Session ID: eff54955-b0fe-438d-af33-c84308f6e527
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="logIn({password=Hari@251998, emailid=harry251998@gmail.com})">
-                  </a> <!-- logIn({password=Hari@251998, emailid=harry251998@gmail.com}) -->
-                  <span class="method-name">logIn</span>
-                  <span class="parameters">({password=Hari@251998, emailid=harry251998@gmail.com})</span>
+                  <a name="submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)">
+                  </a> <!-- submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...) -->
+                  <span class="method-name">submitForm</span>
+                  <span class="parameters">({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 Anywhwere st, company name=Olivia wilson, Date=1, zipcode=98039, Month=5, password=Hari@151998, last name=krishna, company city=Any city, Year=1998, first name=Hari, mobile number=9500204992, State=Washington, name=Hari krishna})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)">
+                  </a> <!-- submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...) -->
+                  <span class="method-name">submitForm</span>
+                  <span class="parameters">({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria street, company name=Infosys, Date=2, zipcode=600018, Month=7, password=Divyashree@151998, last name=Shree, company city=Electronic city, Year=2000, first name=Divya, mobile number=8667732253, State=Tamilnadu, name=Divya shree})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -290,26 +273,26 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'logIn')
+data.setCell(0, 1, 'submitForm')
 data.setCell(0, 2, 'seleniumframeworkdesign.TestCase.Standalonetest')
-data.setCell(0, 3, 27848);
+data.setCell(0, 3, 64528);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'logIn')
+data.setCell(1, 1, 'submitForm')
 data.setCell(1, 2, 'seleniumframeworkdesign.TestCase.Standalonetest')
-data.setCell(1, 3, 26137);
+data.setCell(1, 3, 57137);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'submitForm')
+data.setCell(2, 1, 'logIn')
 data.setCell(2, 2, 'seleniumframeworkdesign.TestCase.Standalonetest')
-data.setCell(2, 3, 17362);
+data.setCell(2, 3, 29996);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'submitForm')
+data.setCell(3, 1, 'logIn')
 data.setCell(3, 2, 'seleniumframeworkdesign.TestCase.Standalonetest')
-data.setCell(3, 3, 17343);
+data.setCell(3, 3, 28001);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -337,24 +320,22 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">seleniumframeworkdesign.TestCase.Standalonetest</div> <!-- chronological-class-name -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">logIn({password=Hari@251998, emailid=harry251998@gmail.com})</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logIn({password=Lingesh@22012002, emailid=lingesh22012002@gmail.com})</span>
-                <span class="method-start">27871 ms</span>
+                <span class="method-start">30321 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)</span>
-                <span class="method-start">54015 ms</span>
+                <span class="method-start">58348 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)</span>
-                <span class="method-start">71628 ms</span>
+                <span class="method-start">122878 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -8,7 +8,7 @@
     <classes>
       <class name="seleniumframeworkdesign.TestCase.Standalonetest">
         <methods>
-          <include name="submitForm" invocation-numbers="0 1"/>
+          <include name="logIn" invocation-numbers="0"/>
         </methods>
       </class> <!-- seleniumframeworkdesign.TestCase.Standalonetest -->
     </classes>
