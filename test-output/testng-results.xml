@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-26T06:24:41 GMT-07:00" name="Suite" finished-at="2024-06-26T06:27:42 GMT-07:00" duration-ms="180637">
+  <suite started-at="2024-06-26T08:56:20 GMT-07:00" name="Suite" finished-at="2024-06-26T08:58:03 GMT-07:00" duration-ms="103434">
     <groups>
     </groups>
-    <test started-at="2024-06-26T06:24:41 GMT-07:00" name="Test" finished-at="2024-06-26T06:27:42 GMT-07:00" duration-ms="180637">
+    <test started-at="2024-06-26T08:56:20 GMT-07:00" name="Test" finished-at="2024-06-26T08:58:03 GMT-07:00" duration-ms="103434">
       <class name="seleniumframeworkdesign.TestCase.Standalonetest">
-        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-26T06:24:42 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-26T06:25:12 GMT-07:00" duration-ms="29996" status="FAIL">
+        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-26T08:56:20 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-26T08:56:42 GMT-07:00" duration-ms="21224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -15,85 +15,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <button type="submit" data-qa="login-button" class="btn btn-default">...</button> is not clickable at point (178, 433). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting" src="https://googleads.g.doubleclick.net/pagead/html/r20240618/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-1677597403311019&amp;fa=8&amp;ifi=2&amp;uci=a!2" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="COKzld2o-YYDFeZGnQkdiQgHmw" data-load-complete="true"></iframe>
-  (Session info: MicrosoftEdge=126.0.2592.68)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2cbbe3dd1de2ce9e97446615ffa48629, clickElement {id=f.CAB17C79E82D15DD8C64570B7615A62E.d.0F7C721AC0CDB86B2E7CF67DE291F3A0.e.45}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55083}, msedge: {msedgedriverVersion: 126.0.2592.68 (30e1b6cc72a8..., userDataDir: C:\Users\LINGU\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55083/devtoo..., se:cdpVersion: 126.0.2592.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (2cbbe3dd1de2ce9e97446615ffa48629)] -> xpath: //form[@action='/login']/button]
-Session ID: 2cbbe3dd1de2ce9e97446615ffa48629]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" data-qa="login-button" class="btn btn-default">...</button> is not clickable at point (178, 433). Other element would receive the click: <iframe id="aswift_1" name="aswift_1" browsingtopics="true" style="width: 100vw !important; height: 100vh !important; inset: 0px auto auto 0px !important; position: absolute !important; clear: none !important; display: inline !important; float: none !important; margin: 0px !important; max-height: none !important; max-width: none !important; opacity: 1 !important; overflow: visible !important; padding: 0px !important; vertical-align: baseline !important; visibility: visible !important; z-index: auto !important;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="" height="" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allow="attribution-reporting" src="https://googleads.g.doubleclick.net/pagead/html/r20240618/r20110914/zrt_lookup_fy2021.html#RS-0-&amp;adk=1812271808&amp;client=ca-pub-1677597403311019&amp;fa=8&amp;ifi=2&amp;uci=a!2" data-google-container-id="a!2" tabindex="0" title="Advertisement" aria-label="Advertisement" data-google-query-id="COKzld2o-YYDFeZGnQkdiQgHmw" data-load-complete="true"></iframe>
-  (Session info: MicrosoftEdge=126.0.2592.68)
-Build info: version: '4.20.0', revision: '866c76ca80'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [2cbbe3dd1de2ce9e97446615ffa48629, clickElement {id=f.CAB17C79E82D15DD8C64570B7615A62E.d.0F7C721AC0CDB86B2E7CF67DE291F3A0.e.45}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 126.0.2592.68, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55083}, msedge: {msedgedriverVersion: 126.0.2592.68 (30e1b6cc72a8..., userDataDir: C:\Users\LINGU\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55083/devtoo..., se:cdpVersion: 126.0.2592.68, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[EdgeDriver: MicrosoftEdge on windows (2cbbe3dd1de2ce9e97446615ffa48629)] -> xpath: //form[@action='/login']/button]
-Session ID: 2cbbe3dd1de2ce9e97446615ffa48629
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy14.click(Unknown Source)
-at seleniumframeworkdesign.PageObjects.HomePage.Login(HomePage.java:49)
-at seleniumframeworkdesign.TestCase.Standalonetest.logIn(Standalonetest.java:122)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-26T06:25:12 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-26T06:25:40 GMT-07:00" duration-ms="28001" status="PASS">
+        <test-method signature="logIn(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-26T08:56:42 GMT-07:00" name="logIn" data-provider="getLoginData" finished-at="2024-06-26T08:57:00 GMT-07:00" duration-ms="18905" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -104,7 +29,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logIn -->
-        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-26T06:25:40 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-26T06:26:45 GMT-07:00" duration-ms="64528" status="PASS">
+        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-26T08:57:00 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-26T08:57:32 GMT-07:00" duration-ms="31157" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,7 +40,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- submitForm -->
-        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-26T06:26:45 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-26T06:27:42 GMT-07:00" duration-ms="57137" status="PASS">
+        <test-method signature="submitForm(java.util.HashMap)[pri:0, instance:seleniumframeworkdesign.TestCase.Standalonetest@66c61024]" started-at="2024-06-26T08:57:32 GMT-07:00" name="submitForm" data-provider="getTestData" finished-at="2024-06-26T08:58:03 GMT-07:00" duration-ms="31692" status="PASS">
           <params>
             <param index="0">
               <value>

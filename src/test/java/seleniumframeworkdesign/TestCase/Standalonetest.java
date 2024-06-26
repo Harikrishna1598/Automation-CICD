@@ -80,6 +80,9 @@ public class Standalonetest extends BaseTest {
 
 		homePage.clickDeleteAccount();
 
+		js.executeScript(
+				"const elements = document.getElementsByClassName('GoogleActiveViewInnerContainer'); while (elements.length > 0) elements[0].remove()");
+
 		Boolean accountDeletedMessage = driver.findElement(By.xpath("//h2[@class='title text-center']/b"))
 				.isDisplayed();
 		softAssert.assertTrue(accountDeletedMessage);
