@@ -55,6 +55,7 @@ public class BaseTest {
 			driver = new FirefoxDriver();
 		}
 
+		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
 		return driver;
 	}
