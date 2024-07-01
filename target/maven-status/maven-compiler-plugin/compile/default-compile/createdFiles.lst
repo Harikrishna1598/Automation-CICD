@@ -1,0 +1,5 @@
+seleniumframeworkdesign\AbstractComponents\AbstractMethods.class
+seleniumframeworkdesign\PageObjects\HomePage.class
+seleniumframeworkdesign\PageObjects\AccountInformationPage.class
+seleniumframeworkdesign\PageObjects\SignupPage.class
+seleniumframeworkdesign\Resources\ExtentReport.class

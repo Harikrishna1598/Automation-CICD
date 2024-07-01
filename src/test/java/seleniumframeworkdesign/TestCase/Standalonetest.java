@@ -73,15 +73,19 @@ public class Standalonetest extends BaseTest {
 
 		accountInformationPage.clickCreateAccount();
 
+		/*
+		 * js.executeScript(
+		 * "const elements = document.getElementsById('card'); while (elements.length > 0) elements[0].remove()"
+		 * );
+		 */
+
 		homePage.clickContinue();
 
 		Boolean verifyLogInText = driver.findElement(By.xpath("//ul[@class='nav navbar-nav']/li[10]")).isDisplayed();
+
 		softAssert.assertTrue(verifyLogInText);
 
 		homePage.clickDeleteAccount();
-
-		js.executeScript(
-				"const elements = document.getElementsByClassName('GoogleActiveViewInnerContainer'); while (elements.length > 0) elements[0].remove()");
 
 		Boolean accountDeletedMessage = driver.findElement(By.xpath("//h2[@class='title text-center']/b"))
 				.isDisplayed();

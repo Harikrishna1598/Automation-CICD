@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -93,7 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">4 methods, 2 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)">submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)">submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -112,16 +131,6 @@
                         <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="logIn({password=Lingesh@22012002, emailid=lingesh22012002@gmail.com})">logIn({password=Lingesh@22012002, emailid=lingesh22012002@gmail.com})</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)">submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="seleniumframeworkdesign.TestCase.Standalonetest" class="method navigator-link" hash-for-method="submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)">submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -134,6 +143,78 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">seleniumframeworkdesign.TestCase.Standalonetest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)">
+                  </a> <!-- submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...) -->
+                  <span class="method-name">submitForm</span>
+                  <span class="parameters">({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria street, company name=Infosys, Date=2, zipcode=600018, Month=7, password=Divyashree@151998, last name=Shree, company city=Electronic city, Year=2000, first name=Divya, mobile number=8667732253, State=Tamilnadu, name=Divya shree})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;login-form&apos;]/h2/b&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [536cd2ee29ef7f62adcfb4b5a244f850, findElement {value=//div[@class=&apos;login-form&apos;]/h2/b, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\LINGU\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50806}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50806/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 536cd2ee29ef7f62adcfb4b5a244f850
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at seleniumframeworkdesign.TestCase.Standalonetest.submitForm(Standalonetest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)">
+                  </a> <!-- submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...) -->
+                  <span class="method-name">submitForm</span>
+                  <span class="parameters">({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 Anywhwere st, company name=Olivia wilson, Date=1, zipcode=98039, Month=5, password=Hari@151998, last name=krishna, company city=Any city, Year=1998, first name=Hari, mobile number=9500204992, State=Washington, name=Hari krishna})</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;login-form&apos;]/h2/b&quot;}
+  (Session info: chrome=126.0.6478.127)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.20.0&apos;, revision: &apos;866c76ca80&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [110bdbf732150cd2fd2eaaf6a89c18dd, findElement {value=//div[@class=&apos;login-form&apos;]/h2/b, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 126.0.6478.127, chrome: {chromedriverVersion: 126.0.6478.126 (d36ace6122e..., userDataDir: C:\Users\LINGU\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50777}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50777/devtoo..., se:cdpVersion: 126.0.6478.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 110bdbf732150cd2fd2eaaf6a89c18dd
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at seleniumframeworkdesign.TestCase.Standalonetest.submitForm(Standalonetest.java:44)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 32 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -154,22 +235,6 @@
                   </a> <!-- logIn({password=Lingesh@22012002, emailid=lingesh22012002@gmail.com}) -->
                   <span class="method-name">logIn</span>
                   <span class="parameters">({password=Lingesh@22012002, emailid=lingesh22012002@gmail.com})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)">
-                  </a> <!-- submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...) -->
-                  <span class="method-name">submitForm</span>
-                  <span class="parameters">({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria street, company name=Infosys, Date=2, zipcode=600018, Month=7, password=Divyashree@151998, last name=Shree, company city=Electronic city, Year=2000, first name=Divya, mobile number=8667732253, State=Tamilnadu, name=Divya shree})</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)">
-                  </a> <!-- submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...) -->
-                  <span class="method-name">submitForm</span>
-                  <span class="parameters">({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 Anywhwere st, company name=Olivia wilson, Date=1, zipcode=98039, Month=5, password=Hari@151998, last name=krishna, company city=Any city, Year=1998, first name=Hari, mobile number=9500204992, State=Washington, name=Hari krishna})</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -231,21 +296,21 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'submitForm')
+data.setCell(0, 1, 'logIn')
 data.setCell(0, 2, 'seleniumframeworkdesign.TestCase.Standalonetest')
-data.setCell(0, 3, 33319);
+data.setCell(0, 3, 29542);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'submitForm')
+data.setCell(1, 1, 'logIn')
 data.setCell(1, 2, 'seleniumframeworkdesign.TestCase.Standalonetest')
-data.setCell(1, 3, 31942);
+data.setCell(1, 3, 15284);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'logIn')
+data.setCell(2, 1, 'submitForm')
 data.setCell(2, 2, 'seleniumframeworkdesign.TestCase.Standalonetest')
-data.setCell(2, 3, 27686);
+data.setCell(2, 3, 14766);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'logIn')
+data.setCell(3, 1, 'submitForm')
 data.setCell(3, 2, 'seleniumframeworkdesign.TestCase.Standalonetest')
-data.setCell(3, 3, 19039);
+data.setCell(3, 3, 13012);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -283,15 +348,19 @@ return data;
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logIn({password=Lingesh@22012002, emailid=lingesh22012002@gmail.com})</span>
-                <span class="method-start">27701 ms</span>
+                <span class="method-start">29560 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">submitForm({country=United States, city=Seattle, Title=Mr, emailid=hari01051997@gmail.com, company street=123 A...)</span>
-                <span class="method-start">46770 ms</span>
+                <span class="method-start">44872 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">submitForm({country=India, city=Chennai, Title=Mrs, emailid=divyashree151998@gmail.com, company street=Victoria...)</span>
-                <span class="method-start">80092 ms</span>
+                <span class="method-start">58150 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
